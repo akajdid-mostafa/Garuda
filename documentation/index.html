@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>GARUDA - Documentation</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", sans-serif;
+        background-color: white;
+        color: #282828;
+      }
+
+      .logo {
+        display: inline-flex;
+        align-items: center;
+        column-gap: 8px;
+      }
+
+      .menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        background-color: white;
+        border-bottom: 1px solid #ecf0f1;
+        z-index: 10;
+      }
+
+      .logo img {
+        height: auto;
+        max-height: 1.75rem;
+        max-width: 100%;
+      }
+
+      .menu a {
+        font-size: 14px;
+        font-weight: bold;
+        color: #7a7a7a;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      .menu a:hover {
+        color: #00d1b2;
+      }
+
+      .butoncv {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff !important;
+        background-color: #00d1b2;
+        border: 2px solid #00d1b2;
+        border-radius: 3px;
+        padding: 10px 16px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .butoncv:hover {
+        background-color: transparent;
+        color: #00d1b2 !important;
+      }
+
+      .giris {
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .giris main div {
+        text-align: center;
+      }
+
+      .gyazisi {
+        font-family: "Bitter", serif;
+        font-size: 3em;
+        color: #00d1b2;
+      }
+
+      .aciklama {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+      }
+
+      .buton1a {
+        font-size: 14px;
+        font-weight: bold;
+        color: #00d1b2;
+        border: 2px solid #00d1b2;
+        border-radius: 3px;
+        padding: 10px 16px;
+        background-color: transparent;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .buton1a:hover {
+        background-color: #00d1b2;
+        color: white !important;
+      }
+
+      #portfoliom {
+        border-bottom: 1px solid #e0e0e0;
+        margin: 1px 5px;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+        -webkit-column-gap: 1rem;
+        -moz-column-gap: 1rem;
+        column-gap: 1rem;
+        -webkit-column-width: 33.33333333333333%;
+        -moz-column-width: 33.33333333333333%;
+        column-width: 33.33333333333333%;
+      }
+
+      .tile {
+        z-index: 99;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
+
+      }
+
+      .tile:hover {
+        opacity: 0.5;
+      }
+
+      .scale-anm {
+        transform: scale(1);
+      }
+
+
+
+      .tile img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+
+      }
+
+      hr.style-eight {
+        overflow: visible;
+        /* For IE */
+        padding: 0;
+        border: none;
+        border-top: medium solid #333;
+        color: #333;
+        text-align: center;
+      }
+
+      hr.style-eight:after {
+        content: "Portfolio";
+        display: inline-block;
+        position: relative;
+        top: -0.7em;
+        font-size: 55px;
+        padding: 0 0.25em;
+        background: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="menu">
+      <a href="https://www.foxybiz.com" target="_blank" class="logo"><img
+          src="https://www.foxybiz.com/assets/img/foxybiz.svg" alt="Logo"></a>
+      <div>
+        <a href="#" class="butoncv">Buy Now</a>
+        <a href="https://garuda.foxybiz.com" target="_blank" class="buton1a">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="giris">
+      <main>
+        <div>
+          <h1 class="gyazisi">GARUDA - Portfolio Template</h1>
+          <p class="aciklama">Powered by <a href="https://www.foxybiz.com" target="_blank"
+              class="logo"><strong>FoxyBiz</strong><img src="https://www.foxybiz.com/assets/img/foxybiz.svg"
+                alt="Logo"></a></p>
+          <a href="#" class="butoncv">Purchase Now</a>
+          <a href="https://garuda.foxybiz.com/docs" target="_blank" class="buton1a">Documentation Link</a>
+        </div>
+      </main>
+    </div>
+  </body>
+
+</html>
